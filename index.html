@@ -94,7 +94,7 @@ body {
 <script type="text/javascript" src="js/paninoAJAX.js"></script>
 <script type="text/javascript" src="js/transicion.js"></script>
 <script type="text/javascript" src="js/mobile_detect.js"></script>
-<!--<script type="text/javascript" charset="utf-8" src="cordova.js"></script> -->
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
 <script> 
 var map;
 var geocoder = null;
@@ -542,7 +542,6 @@ DR(
 		
 	}
 );
-/*
 document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
 		$('user_id').value=device.uuid;
@@ -551,7 +550,7 @@ function onDeviceReady() {
 		$('mobile_model').value=device.model;
 		var md=new MobileDetect(navigator.userAgent);
 		$('mobile_maker').value=md.phone() || 'Unknown';
-}*/
+}
 document.addEventListener('touchstart', this.touchstart);
 document.addEventListener('touchmove', this.touchmove);
 
